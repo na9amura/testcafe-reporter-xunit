@@ -2,7 +2,10 @@
   "name": "testcafe-reporter-xunit",
   "version": "2.1.0",
   "description": "xUnit TestCafe reporter plugin.",
-  "repository": "https://github.com/DevExpress/testcafe-reporter-xunit",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/na9amura/testcafe-reporter-xunit.git"
+  },
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://devexpress.com"
@@ -12,9 +15,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "gulp test",
-    "publish-please": "publish-please",
-    "prepublish": "publish-please guard"
+    "test": "gulp test"
   },
   "keywords": [
     "testcafe",
